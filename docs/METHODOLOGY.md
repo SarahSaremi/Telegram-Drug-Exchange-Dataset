@@ -78,7 +78,7 @@ channel's early months about half of all messages came from deleted accounts (35
 ## Limitations (read before publishing results)
 
 - **Photo-only posts are invisible.** In the first channel ~108k messages carry a photo; about two thirds have a caption that the
-  pipeline does read, but ~35k (7% of that channel's messages) have no text at all, and across all five channels 3.5% of messages
+  pipeline does read, but ~35k (7% of that channel's messages) have no text at all, and across all ten channels 4.3% of messages
   are media with no text. Their content (often a price list as a picture) is unreadable here. Even where a caption exists it may
   not list everything the photo shows. `n_media_only` in the summary tables quantifies the blind spot.
 - **Lexicon coverage ~45%** of extracted items in the first channel; long-tail drugs, devices and consumables are unmatched.

@@ -4,9 +4,9 @@ A pipeline and a **data standard** for studying drug supply and demand in Telegr
 Give it Telegram exports; it produces (a) pseudonymised per-channel tables for researchers (restricted) and (b) tables **pooled
 across all channels** and threshold-suppressed, which can be published without identifying any single channel.
 
-> **Status: v0.2 (draft, release candidate).** Holds a first pooled dataset from five Persian-language channels (see
+> **Status: v0.2 (draft, release candidate).** Holds a pooled dataset from ten Persian-language channels (see
 > [Current data](#current-data)). The lexicon is unreviewed by a pharmacist, the supply/demand rules were spot-checked on
-> only one of the five channels. Code is MIT, data and docs are CC BY 4.0 (see [License](#license-and-citation)). Read
+> only one of the ten channels. Code is MIT, data and docs are CC BY 4.0 (see [License](#license-and-citation)). Read
 > [docs/METHODOLOGY.md](docs/METHODOLOGY.md) (limitations) and [docs/PRIVACY_AND_ETHICS.md](docs/PRIVACY_AND_ETHICS.md) before using or publishing anything.
 
 ## What it extracts from each channel
@@ -26,23 +26,23 @@ the same catalogue thousands of times. Raw and de-duplicated message counts are 
 
 ## Current data
 
-The repository currently contains **one pooled public dataset** built from **five Persian-language Telegram groups** in which
+The repository currently contains **one pooled public dataset** built from **ten Persian-language Telegram groups** in which
 pharmacies and individuals offer and request medicines (including scarce and rare drugs). Headline figures at this commit:
 
 | | |
 |---|---|
 | Period | Oct 2018 - Nov 2026 (98 months with activity) |
-| Messages | 1.6 million (1.54 million with text); about 76% supply, 15% demand, 2% job ads |
-| Distinct senders | 8,618 named accounts, linked across groups by pseudonym (deleted accounts count as one) |
-| Published data | 26,241 month x role x drug-group cells over 150 drug groups; 3,041 sensitive-drug cells suppressed |
-| Matching | about half of all extracted item lines match a lexicon drug group |
+| Messages | 3.5 million (3.36 million with text); about 74% supply, 16% demand, 3% job ads |
+| Distinct senders | 14,964 named accounts, linked across groups by pseudonym (deleted accounts count as one) |
+| Published data | 28,650 month x role x drug-group cells over 150 drug groups; 3,212 sensitive-drug cells suppressed |
+| Matching | about half (53%) of all extracted item lines match a lexicon drug group |
 
 - **The dataset card, [data/public/README.md](data/public/README.md), is the authoritative description** of the files, thresholds,
   composition and limits. It is generated from the published files every time you run `pool`, so it cannot drift from the data.
 - **Not in this repository:** the raw exports, message text, sender identifiers, channel names or codes, and every per-channel
   figure. These stay in the git-ignored restricted tier.
 - **Provisional:** only the first channel's supply/demand labels were spot-checked (informally, ~90-95% correct); the QA protocol in
-  [docs/ADDING_A_CHANNEL.md](docs/ADDING_A_CHANNEL.md) is still to be completed for the other four, so treat role-level results as
+  [docs/ADDING_A_CHANNEL.md](docs/ADDING_A_CHANNEL.md) is still to be completed for the other nine, so treat role-level results as
   provisional. Drug groups are the project's own grouping of brand names, not pharmacist-verified.
 
 ## Quick start

@@ -1,6 +1,9 @@
 # Changelog
 
 ## Unreleased
+- Channels ch006-ch010 added (10 channels, 3.5M messages, pooled; 14,964 distinct named senders after cross-channel
+  linking; 28,650 published cells, 3,212 sensitive cells suppressed). Same lexicon (`4a6f2ec0a084`) and rules (`fa-0.1.0`);
+  QA protocol not yet done for the new channels.
 - Licences: code MIT, data and documentation CC BY 4.0 (official legal text in `LICENSE-CC-BY-4.0.txt`).
 - Dataset card (`data/public/README.md`) and README current-data section; corrected media and deleted-account wording.
 

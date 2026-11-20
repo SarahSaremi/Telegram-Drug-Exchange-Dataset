@@ -2,12 +2,12 @@
   "schema_version": "0.2.0",
   "pipeline_version": "0.2.0",
   "lexicon_sha1": "4a6f2ec0a084",
-  "n_channels": 5,
+  "n_channels": 10,
   "rules_versions": [
     "fa-0.1.0"
   ],
-  "n_distinct_named_senders": 8618,
-  "item_match_rate": 0.5145,
+  "n_distinct_named_senders": 14964,
+  "item_match_rate": 0.5316,
   "languages": [
     "fa"
   ],
@@ -19,8 +19,8 @@
   "k": 1,
   "k_sensitive": 5,
   "sensitive_flags": "CAX",
-  "n_cells_total": 29282,
-  "n_cells_suppressed": 3041,
-  "n_cells_suppressed_sensitive": 3041,
-  "generated_at": "2026-11-09T22:37:26Z"
+  "n_cells_total": 31862,
+  "n_cells_suppressed": 3212,
+  "n_cells_suppressed_sensitive": 3212,
+  "generated_at": "2026-11-17T11:02:21Z"
 }

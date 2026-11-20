@@ -1,6 +1,8 @@
 # Changelog
 
 ## Unreleased
+- Repository renamed from `pharmax` to `Telegram-Drug-Exchange-Dataset`; README title, citation and URL updated (the Python
+  package and CLI are still called `pharmax`).
 - Channels ch006-ch010 added (10 channels, 3.5M messages, pooled; 14,964 distinct named senders after cross-channel
   linking; 28,650 published cells, 3,212 sensitive cells suppressed). Same lexicon (`4a6f2ec0a084`) and rules (`fa-0.1.0`);
   QA protocol not yet done for the new channels.

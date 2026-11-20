@@ -1,6 +1,8 @@
-# pharmax
+# Telegram Drug Exchange Dataset
 
 A pipeline and a **data standard** for studying drug supply and demand in Telegram pharmacy-exchange groups.
+(The Python package and command-line tool are still called `pharmax`; the repository was renamed from `pharmax` to
+`Telegram-Drug-Exchange-Dataset`.)
 Give it Telegram exports; it produces (a) pseudonymised per-channel tables for researchers (restricted) and (b) tables **pooled
 across all channels** and threshold-suppressed, which can be published without identifying any single channel.
 
@@ -116,8 +118,8 @@ legal review. See [docs/PRIVACY_AND_ETHICS.md](docs/PRIVACY_AND_ETHICS.md).
 
 The restricted tier and the raw exports are **not part of this repository and are not licensed for any use**.
 
-**Attribution (CC BY 4.0):** credit the project when you reuse the data, e.g. *SarahSaremi, "pharmax: pooled drug supply and demand in
-Persian-language Telegram groups", v0.2.0, https://github.com/SarahSaremi/pharmax*.
+**Attribution (CC BY 4.0):** credit the project when you reuse the data, e.g. *SarahSaremi, "Telegram Drug Exchange Dataset: pooled drug supply and demand in
+Persian-language Telegram groups", v0.2.0, https://github.com/SarahSaremi/Telegram-Drug-Exchange-Dataset*.
 
 A licence cannot restrict ethical use, so please also honour the spirit of [docs/PRIVACY_AND_ETHICS.md](docs/PRIVACY_AND_ETHICS.md):
 do not attempt to re-identify groups or individuals, and do not use the data to locate sellers of controlled medicines.
